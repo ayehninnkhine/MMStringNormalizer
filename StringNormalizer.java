@@ -1,5 +1,10 @@
+/*
+Developed By Aye Hninn Khine
+This function can be used freely.
+*/
+
 public String normalize(String input)
-    {
+{
 	String normalizedString=input;
 
 	normalizedString=normalizedString.replaceAll("([\u102B-\u1035])([\u103B-\u103E])","$2$1");
@@ -84,4 +89,4 @@ public String normalize(String input)
         normalizedString=normalizedString.replaceAll("([\u1000-\u1021])(\u1031)(\u103D)", "$1$3$2"); //Type Error (reorder)
         normalizedString=normalizedString.replaceAll("([\u1000-\u1021])(\u1031)(\u103E)(\u103B)", "$1$3$4$2");//Type Error (reorder)
 	return normalizedString;
-    }
+ }
