@@ -4,7 +4,6 @@
  * normalize MM text after converting to Unicode from Zawgyi.
  * 
  * @author Aye Hninn Khine
- * @author Chan Mrate Ko Ko
  * 
  */
 public class MMTextNormalizer {
