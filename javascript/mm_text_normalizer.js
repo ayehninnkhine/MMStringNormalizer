@@ -1,6 +1,7 @@
 /**
  * 
- * @author Chan Mrate Ko Ko
+ * @author Chan Mrate Ko Ko 
+ *	Normalization Rules By Aye Hninn Khine
  *
  */
 function normalize(input) {
