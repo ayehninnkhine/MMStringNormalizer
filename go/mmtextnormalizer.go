@@ -185,10 +185,6 @@ func MMTextNormalizer(input string) (string, error) {
 			"to": "\u1031\u101B"
 		},
 		{
-			"from":"\u1031\u101B",
-			"to":"\u1031\u101B"
-		},
-		{
 			"from":"([\u1000-\u1021])(\u1036)(\u103D)(\u1037)",
 			"to": "$1$3$2$4"
 		},
